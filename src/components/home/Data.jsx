@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Data = () => {
   return (
@@ -12,10 +12,10 @@ const Data = () => {
       </p>
 
       <a href="#contact" className="button button--flex">
-        Say Hello
+        Project unfinished
       </a>
     </div>
   );
-}
+};
 
-export default Data
+export default Data;
