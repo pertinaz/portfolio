@@ -5,12 +5,22 @@
 }
 
 .about__container{
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     column-gap: 4rem;
 }
 
+.about__img{
+    /* width: 100%;
+    height: 100%; */
+    border-radius: 1.5rem;
+    justify-self: center;
+}
+
+
 .about__info{
+    display: grid;
     grid-template-columns: repeat(3, 140px);
     gap: 0.5rem;
     margin-bottom: var(--mb-2);
@@ -66,9 +76,9 @@
 }
 
 /* for medium devices */
-@media screen and (max-width:576){
+@media screen and (max-width:576px){
     .about__info{
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .about__description{
@@ -79,5 +89,8 @@
 
 /* For small devices */
 @media screen and (max-width:350px){
+    .about__info{
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 }

@@ -9,6 +9,9 @@ const About = () => {
       <span className="section__subtitle">Introduction</span>
 
       <div className="about__container container grid">
+        <div className="about__img">
+          <box-icon  className="laptop" name="laptop"></box-icon>
+        </div>
         <div className="about__data">
           <Info />
 
