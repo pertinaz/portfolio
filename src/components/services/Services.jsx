@@ -25,13 +25,22 @@ const Services = () => {
           </div>
 
           <span className="services__button" onClick={() => toggleTab(1)}>
-            View More 
+            View More
             <i className="uil uil-arrow-right services__button"></i>
           </span>
 
-          <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
+          <div
+            className={
+              toggleState === 1
+                ? "services__modal active-modal"
+                : "services__modal"
+            }
+          >
             <div className="services__modal-content">
-              <i className="uil uil-times services__modal-close"></i>
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times services__modal-close"
+              ></i>
               <h3 className="services__modal-title">
                 Server Side
                 <br />
@@ -87,9 +96,18 @@ const Services = () => {
             View More <i className="uil uil-arrow-right services__button"></i>
           </span>
 
-          <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
+          <div
+            className={
+              toggleState === 2
+                ? "services__modal active-modal"
+                : "services__modal"
+            }
+          >
             <div className="services__modal-content">
-              <i className="uil uil-times services__modal-close"></i>
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times services__modal-close"
+              ></i>
               <h3 className="services__modal-title">
                 UI/UX <br />
                 designer
@@ -145,9 +163,18 @@ const Services = () => {
             View More <i className="uil uil-arrow-right services__button"></i>
           </span>
 
-          <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
+          <div
+            className={
+              toggleState === 3
+                ? "services__modal active-modal"
+                : "services__modal"
+            }
+          >
             <div className="services__modal-content">
-              <i className="uil uil-times services__modal-close"></i>
+              <i
+                onClick={() => toggleTab(0)}
+                 className="uil uil-times services__modal-close"
+              ></i>
               <h3 className="services__modal-title">
                 Ethical
                 <br />
