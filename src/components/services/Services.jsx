@@ -1,13 +1,12 @@
 import "./services.css";
 
-import React, {useState} from "react";
+import React, { useState } from "react";
 
 const Services = () => {
-
   const [toggleState, setToggleState] = useState(0);
   const toggleTab = (index) => {
     setToggleState(index);
-  }
+  };
   return (
     <section className="services section" id="services">
       <h2 className="section__title">Services</h2>
@@ -47,35 +46,32 @@ const Services = () => {
                 Development
               </h3>
               <p className="services__modal-description">
-                Service and providing quality work to clients and companies
+                I handle data processing, business logic, and ensuring the
+                proper execution of tasks.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    API services development
+                    Integration with Third-Party Services
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    User Interfaces & UX element interactions
-                  </p>
+                  <p className="services__modal-info">Server-Side Logic</p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">Database Management</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Positioning of web pages and branding
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Design and mockups of products for companies.
+                    Security, optimization & maintenance
                   </p>
                 </li>
               </ul>
@@ -113,36 +109,33 @@ const Services = () => {
                 designer
               </h3>
               <p className="services__modal-description">
-                Service and providing quality work to clients and companies
+                create an intuitive, aesthetically pleasing, and user-friendly
+                interface that provides a positive experience for users.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    API services development
+                    Wireframing and Prototyping
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    User Interfaces & UX element interactions
+                    User Research and Testing
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Positioning of web pages and branding
-                  </p>
+                  <p className="services__modal-info">Interaction Design</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Design and mockups of products for companies.
-                  </p>
+                  <p className="services__modal-info">Responsive Design</p>
                 </li>
               </ul>
             </div>
@@ -173,7 +166,7 @@ const Services = () => {
             <div className="services__modal-content">
               <i
                 onClick={() => toggleTab(0)}
-                 className="uil uil-times services__modal-close"
+                className="uil uil-times services__modal-close"
               ></i>
               <h3 className="services__modal-title">
                 Ethical
@@ -181,36 +174,32 @@ const Services = () => {
                 Hacking
               </h3>
               <p className="services__modal-description">
-                Service and providing quality work to clients and companies
+                Testing and evaluating the security of systems, networks, and
+                applications to identify and fix vulnerabilities before
+                malicious actors can exploit them.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    API services development
-                  </p>
+                  <p className="services__modal-info">Penetration Testing</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    User Interfaces & UX element interactions
+                    Web Application Security
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Positioning of web pages and branding
-                  </p>
+                  <p className="services__modal-info">Social Engineering</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Design and mockups of products for companies.
-                  </p>
+                  <p className="services__modal-info">Network Security</p>
                 </li>
               </ul>
             </div>
