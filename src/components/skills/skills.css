@@ -79,7 +79,7 @@
   }
 
   .skills__name {
-    font-size: var(--small-font-size);
+    font-size: var(--smaller-font-size);
   }
 
   .skills__title {
