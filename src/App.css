@@ -219,6 +219,9 @@
   }
 
   @media screen and (max-width: 576px) {
+    .container{
+      overflow-x: hidden;      
+    }
   }
 
   /* For small devices */
@@ -229,6 +232,7 @@
     .container {
       margin-left: var(--mb-1);
       margin-right: var(--mb-1);
+      overflow-x: hidden;
     }
   }
 }

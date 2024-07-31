@@ -11,7 +11,7 @@ const Data = () => {
         solutions to today's commercial needs
       </p>
 
-      <a href="#contact" className="button button--flex">
+      <a href="#footer" className="button button--flex">
         Project unfinished
       </a>
     </div>
