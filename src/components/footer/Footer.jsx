@@ -33,6 +33,7 @@ const Footer = () => {
             </a>
           </li>
         </ul>
+        <span className="footer__copy">@Pertinaz. Open source contributor</span>
       </div>
     </footer>
   );
