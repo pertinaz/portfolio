@@ -6,13 +6,13 @@ const Data = () => {
       <h1 className="home__title">Manuel Aguirre</h1>
       <h3 className="home__subtitle">Backend Developer</h3>
       <p className="home__description">
-        Commited and adaptable person, interested in the evolution of digital
-        technology and analysis, focused on the development of ideas and
-        solutions to today's commercial needs
+        Interested in designing and building highly scalable services and APIs.
       </p>
-
-      <a href="#footer" className="button button--flex">
-        Project unfinished
+      <a
+        href="https://cv-nine-flax.vercel.app/"
+        className="button button--flex"
+      >
+        Check my CV
       </a>
     </div>
   );

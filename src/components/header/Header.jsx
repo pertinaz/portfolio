@@ -8,7 +8,7 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
         <a href="https://cv-nine-flax.vercel.app/" className="nav_logo">
-          <p className="pulse">Check my CV</p>
+          <p className="pulse">Aguirre</p>
         </a>
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
@@ -17,13 +17,6 @@ const Header = () => {
               <a href="#home" className="nav__link active-link">
                 <i className="uil uil-estate nav__icon"></i>
                 Home
-              </a>
-            </li>
-
-            <li className="nav__item">
-              <a href="#about" className="nav__link">
-                <i className="uil uil-user nav__icon"></i>
-                About
               </a>
             </li>
 
