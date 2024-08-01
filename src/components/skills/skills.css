@@ -5,10 +5,11 @@
   justify-content: center;
 }
 
-.section__title, .section__subtitle{
-    display: grid;
-    align-items: center;
-    justify-content: center;
+.section__title,
+.section__subtitle {
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }
 
 .skills__content {
@@ -81,6 +82,10 @@
 
 /* For small devices */
 @media screen and (max-width: 350px) {
+  .skills__content {
+    padding: 1rem;
+  }
+
   .skills__box {
     columns: gap 1.25rem;
   }

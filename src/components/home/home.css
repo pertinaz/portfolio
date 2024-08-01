@@ -176,7 +176,6 @@
   }
 }
 
-
 @media screen and (max-width: 350px) {
   .home__content {
     display: grid;
@@ -197,5 +196,10 @@
 
   .about__info {
     grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+  }
+
+  .about__box {
+    margin: 10px 5px;
   }
 }
