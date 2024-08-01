@@ -153,6 +153,30 @@
 }
 
 /* For small devices */
+@media screen and (max-width: 450px) {
+  .home__content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .home__img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .home__social {
+    display: flex;
+    flex-direction: row;
+    row-gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .about__info {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
 @media screen and (max-width: 350px) {
   .home__content {
     display: grid;
