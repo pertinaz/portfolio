@@ -1,3 +1,12 @@
+:root{
+  .dark-mode{
+    .active-link,
+    .nav__link:hover{
+      color:var(--dark-hover-color);
+    }
+  }
+}
+
 .header {
   width: 100%;
   display: flex;

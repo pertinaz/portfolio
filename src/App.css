@@ -18,7 +18,7 @@
   /* Dark mode var colors*/
   --dark-hue: 0;
   --dark-sat: 0%;
-  --dark-title-color: hsl(var(--dark-hue), var(--dark-sat), 75%);
+  --dark-title-color: hsl(var(--dark-hue), var(--dark-sat), 85%);
   --dark-text-color: hsl(var(--dark-hue), var(--dark-sat), 100%);
   --dark-body-color: hsl(var(--dark-hue), var(--dark-sat), 40%);
   --dark-container-color: #191d27;
