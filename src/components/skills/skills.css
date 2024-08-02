@@ -18,16 +18,16 @@
   border-radius: 1.25rem;
 }
 
-.project__img{
-  border: 1px solid rgba(0, 0, 0, 0.1);
+.project__img {
+  border: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 .skills__title {
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
+  font-size: var(--small-font-size);
+  font-weight: var(--font-normal);
   text-align: center;
   justify-content: center;
-  margin-bottom: var(--mb-1-5);
+  margin-bottom: var(--mb-1);
 }
 
 .skills__box {

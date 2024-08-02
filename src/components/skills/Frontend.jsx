@@ -10,7 +10,6 @@ const Frontend = () => {
 
       <div className="skills__box">
         <div className="skills__group">
-          
           <div className="skills__data">
             <i class="bx bx-badge-check"></i>
             <div>
@@ -19,14 +18,14 @@ const Frontend = () => {
           </div>
 
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i class="bx bxl-tailwind-css"></i>
             <div>
               <h3 className="skills__name">Tailwind</h3>
             </div>
           </div>
 
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i class="bx bxl-react"></i>
             <div>
               <h3 className="skills__name">React</h3>
             </div>

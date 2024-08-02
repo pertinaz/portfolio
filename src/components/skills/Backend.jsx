@@ -11,14 +11,14 @@ const Backend = () => {
       <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i class="bx bxl-nodejs"></i>
             <div>
               <h3 className="skills__name">Node JS</h3>
             </div>
           </div>
 
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i class="bx bxl-postgresql"></i>
             <div>
               <h3 className="skills__name">PostgresSQL</h3>
             </div>
