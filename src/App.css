@@ -18,8 +18,8 @@
   /* Dark mode var colors*/
   --dark-hue: 0;
   --dark-sat: 0%;
-  --dark-title-color: hsl(var(--dark-hue), var(--dark-sat), 90%);
-  --dark-text-color: hsl(var(--dark-hue), var(--dark-sat), 90%);
+  --dark-title-color: hsl(var(--dark-hue), var(--dark-sat), 75%);
+  --dark-text-color: hsl(var(--dark-hue), var(--dark-sat), 100%);
   --dark-body-color: hsl(var(--dark-hue), var(--dark-sat), 40%);
   --dark-container-color: #191d27;
   --dark-hover-color: #f9f9f9;
@@ -30,18 +30,17 @@
     --title-color: var(--dark-title-color);
     --text-color: var(--dark-text-color);
     --body-color: var(--dark-container-color);
-    --container-color: var(--container-color);
+    --container-color: var(--dark-body-color);
 
     button {
       background-color: transparent;
       color: white;
     }
 
-    .about__box{
-      background-color: var(--container-color);
-    }
-
     /* Buttons */
+    .button{
+      color: #000;
+    }
     .button:hover {
       background-color: var(--dark-hover-color);
     }
