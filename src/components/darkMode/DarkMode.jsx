@@ -9,7 +9,7 @@ const DarkMode = () => {
     }
 
     return (
-      <div className='theme__container'>
+      <div className='theme__icon'>
         <button onClick={toggleTheme}>
           {isDarkMode ? <i class="bx bx-sun"></i> : <i class="bx bx-moon"></i>}
         </button>

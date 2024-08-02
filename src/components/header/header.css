@@ -1,16 +1,15 @@
-:root{
-  .dark-mode{
+:root {
+  .dark-mode {
     .active-link,
-    .nav__link:hover{
-      color:var(--dark-hover-color);
+    .nav__link:hover {
+      color: var(--dark-hover-color);
     }
   }
 }
 
 .header {
   width: 100%;
-  display: flex;
-  justify-content: center;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
@@ -21,16 +20,16 @@
   height: calc(var(--header-height)+ 1.5rem);
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
   column-gap: 1rem;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 p {
   font-size: var(--normal-font-size);
   color: var(--title-color);
   font-weight: var(--font-medium);
-  transition: .3s;
+  transition: 0.3s;
 }
 
 /*
