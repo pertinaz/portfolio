@@ -1,13 +1,12 @@
-:root{
-  .dark-mode{
-    .skills__content{
+:root {
+  .dark-mode {
+    .projects__content {
       background-color: var(--dark-boxes-color);
     }
   }
 }
 
-
-.skills__container {
+.portfolio__container {
   display: flex;
   column-gap: 3rem;
   justify-content: center;
@@ -20,11 +19,11 @@
   justify-content: center;
 }
 
-.section__subtitle{
+.section__subtitle {
   margin-bottom: var(--mb-1);
 }
 
-.skills__content {
+.projects__content {
   background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1rem 2rem;
@@ -35,7 +34,7 @@
   border: 2px solid rgba(0, 0, 0, 0.1);
 }
 
-.skills__title {
+.project__title {
   font-size: var(--small-font-size);
   font-weight: var(--font-normal);
   text-align: center;
@@ -43,28 +42,27 @@
   margin-bottom: var(--mb-1);
 }
 
-.skills__box {
+.project__box {
   display: grid;
   column-gap: 2.5rem;
 }
 
-.skills_group {
+.project_group {
   display: grid;
   row-gap: 0.5rem;
 }
 
-.skills__data {
+.project__data {
   display: flex;
-  flex-direction: row;
   column-gap: 0.5rem;
 }
 
-.skills .box-badge-check {
+.portfolio .box-badge-check {
   font-size: 0.5rem;
   color: var(--title-color);
 }
 
-.skills__name {
+.tool__name {
   font-size: var(--smaller-font-size);
   font-weight: var(--font-normal);
   line-height: 18px;
@@ -74,7 +72,7 @@
 
 /* for large devices */
 @media screen and (max-width: 992px) {
-  .skills__container {
+  .portfolio__container {
     grid-template-columns: max-content;
     row-gap: 2rem;
   }
@@ -82,30 +80,30 @@
 
 /* for medium devices */
 @media screen and (max-width: 576px) {
-  .skills__container {
+  .portfolio__container {
     grid-template-columns: 1fr;
   }
 
-  .skills__content {
+  .projects__content {
     padding: 1.5rem;
   }
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-  .skills__content {
+  .projects__content {
     padding: 1rem;
   }
 
-  .skills__box {
+  .project__box {
     columns: gap 1.25rem;
   }
 
-  .skills__name {
+  .tool__name {
     font-size: var(--smaller-font-size);
   }
 
-  .skills__title {
+  .project__title {
     font-size: var(--small-font-size);
   }
 }
