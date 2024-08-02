@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import DarkMode from "../darkMode/DarkMode";
 import "./header.css";
 
 const Header = () => {
@@ -7,11 +8,7 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="https://cv-nine-flax.vercel.app/" className="nav_logo">
-          <i class="bx bx-sun"></i>
-          <i class="bx bx-moon"></i>
-        </a>
-
+        <DarkMode />
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             <li className="nav__item">

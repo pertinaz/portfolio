@@ -10,12 +10,12 @@ const DarkMode = () => {
     }
 
     return (
-    <div>
+      <div>
         <button onClick={toggleTheme}>
-            {isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
+          {isDarkMode ? <i class="bx bx-sun"></i> : <i class="bx bx-moon"></i>}
         </button>
-    </div>
-  )
+      </div>
+    );
 }
 
 export default DarkMode
