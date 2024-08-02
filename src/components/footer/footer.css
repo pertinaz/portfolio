@@ -3,15 +3,19 @@
     .footer__link:hover {
       color: var(--dark-hover-color);
     }
+
+    .footer {
+      background-color: var(--dark-boxes-color);
+    }
   }
 
-  .container{
+  .container {
     margin: auto;
   }
 }
 
 .footer {
-  background-color: var(--dark-boxes-color);
+  background-color: var(--container-color);
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   margin-top: 14rem;
 }

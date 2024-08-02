@@ -1,3 +1,11 @@
+:root {
+  .dark-mode {
+    .services__content {
+      background-color: var(--dark-boxes-color);
+    }
+  }
+}
+
 .services__container {
   display: grid;
   grid-template-columns: repeat(3, 270px);
@@ -8,7 +16,7 @@
 .services__content {
   position: relative;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: var(--dark-boxes-color);
+  background-color: var(--container-color);
   padding: 4rem 0 2rem 2.5rem;
   border-radius: 1.25rem;
   margin-top: 0.5rem;
@@ -65,7 +73,7 @@
 .services__modal-content {
   width: 500px;
   position: relative;
-  background-color: var(--container-color);
+  background-color: var(--dark-boxes-color);
   padding: 4.5rem 2.5rem 2.5rem;
   border-radius: 1.5rem;
 }

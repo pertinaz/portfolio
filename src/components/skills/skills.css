@@ -1,3 +1,12 @@
+:root{
+  .dark-mode{
+    .skills__content{
+      background-color: var(--dark-boxes-color);
+    }
+  }
+}
+
+
 .skills__container {
   display: flex;
   column-gap: 3rem;
@@ -16,7 +25,7 @@
 }
 
 .skills__content {
-  background-color: var(--dark-boxes-color);
+  background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1rem 2rem;
   border-radius: 1.25rem;

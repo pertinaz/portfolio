@@ -3,6 +3,10 @@
     .home__social-icon:hover {
       color: var(--dark-hover-color);
     }
+
+    .about__box{
+      background-color: var(--dark-boxes-color);
+    }
   }
 }
 
@@ -80,7 +84,7 @@
 
 .about__box {
   margin: 15px 0;
-  background-color: var(--dark-boxes-color);
+  background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0.75rem;
   text-align: center;
