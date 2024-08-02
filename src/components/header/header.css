@@ -1,6 +1,7 @@
 .header {
   width: 100%;
-  position: fixed;
+  display: flex;
+  justify-content: center;
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
@@ -22,6 +23,7 @@ p{
   transition: 0.3s;
 }
 
+/*
 @keyframes pulse{
   0%{
     transform: scale(1);
@@ -36,6 +38,7 @@ p{
 .pulse {
   animation: pulse 2.5s infinite ease-in-out;
 }
+*/
 
 .nav__toggle {
   color: var(--title-color);

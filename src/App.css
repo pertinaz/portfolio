@@ -190,6 +190,9 @@
 
   /* for large devices */
   @media screen and (max-width: 992px) {
+    body{
+      overflow-x: hidden;
+    }
     .container {
       margin-left: var(--mb-1-5);
       margin-right: var(--mb-1-5);
@@ -209,6 +212,7 @@
   @media screen and (max-width: 768px) {
     body {
       margin: 0 0 var(--header-height) 0;
+      overflow-x: hidden;
     }
     .section {
       padding: 2rem 0 4rem;

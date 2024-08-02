@@ -8,7 +8,8 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
         <a href="https://cv-nine-flax.vercel.app/" className="nav_logo">
-          <p className="pulse">Aguirre</p>
+          <i class="bx bx-sun"></i>
+          <i class="bx bx-moon"></i>
         </a>
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
