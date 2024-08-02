@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import "./darkMode.css"
 
 const DarkMode = () => {
     const [isDarkMode, setIsDarkMode] = useState(false);
@@ -10,7 +9,7 @@ const DarkMode = () => {
     }
 
     return (
-      <div>
+      <div className='theme__container'>
         <button onClick={toggleTheme}>
           {isDarkMode ? <i class="bx bx-sun"></i> : <i class="bx bx-moon"></i>}
         </button>

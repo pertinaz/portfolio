@@ -20,18 +20,32 @@
   --dark-sat: 0%;
   --dark-title-color: hsl(var(--dark-hue), var(--dark-sat), 90%);
   --dark-text-color: hsl(var(--dark-hue), var(--dark-sat), 90%);
-  --dark-body-color: hsl(var(--dark-hue), var(--dark-sat), 10%);
-  --dark-container-color: #333;
+  --dark-body-color: hsl(var(--dark-hue), var(--dark-sat), 40%);
+  --dark-container-color: #191d27;
+  --dark-hover-color: #f9f9f9;
 
-  .dark-mode{
+  .dark-mode {
     --hue: var(--dark-hue);
     --sat: var(--dark-sat);
     --title-color: var(--dark-title-color);
     --text-color: var(--dark-text-color);
-    --body-color: var(--dark-body-color);
-    --container-color: var(--dark-container-color);
-  }
+    --body-color: var(--dark-container-color);
+    --container-color: var(--container-color);
 
+    button {
+      background-color: transparent;
+      color: white;
+    }
+
+    .about__box{
+      background-color: var(--container-color);
+    }
+
+    /* Buttons */
+    .button:hover {
+      background-color: var(--dark-hover-color);
+    }
+  }
 
   /* Font and Typography */
 
@@ -142,6 +156,7 @@
     cursor: pointer;
     border: none;
     outline: none;
+    background-color: transparent;
   }
 
   img {
@@ -195,10 +210,6 @@
     background-color: var(--title-color-dark);
   }
 
-  .button_icon {
-    margin-left: var(--mb-0-5);
-  }
-
   .button_flex {
     display: inline-block;
     align-items: center;
@@ -208,7 +219,7 @@
 
   /* for large devices */
   @media screen and (max-width: 992px) {
-    body{
+    body {
       overflow-x: hidden;
     }
     .container {
@@ -241,8 +252,8 @@
   }
 
   @media screen and (max-width: 576px) {
-    .container{
-      overflow-x: hidden;      
+    .container {
+      overflow-x: hidden;
     }
   }
 
