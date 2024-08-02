@@ -20,7 +20,7 @@
   height: calc(var(--header-height)+ 1.5rem);
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: center;
   column-gap: 1rem;
   transition: all 0.3s;
 }
@@ -93,6 +93,7 @@ p {
 
   .nav {
     height: var(--header-height);
+    align-items: end;
   }
 
   .nav__menu {
@@ -149,6 +150,9 @@ p {
 
 /* For small devices */
 @media screen and (max-width: 350px) {
+  .nav {
+    align-items: end;
+  }
   .nav__menu {
     padding: 2rem 0.25rem 4rem;
   }
