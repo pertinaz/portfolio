@@ -15,7 +15,7 @@ const Services = () => {
       <div className="services__container container grid">
         <div className="services__content">
           <div>
-            <i className="uil uil services__icon"></i>
+            <i class="bx bxl-nodejs services__icon"></i>
             <h3 className="services__title">
               Server Side
               <br />
@@ -81,7 +81,7 @@ const Services = () => {
 
         <div className="services__content">
           <div>
-            <i className="uil uil services__icon"></i>
+            <i class="bx bxl-react services__icon"></i>
             <h3 className="services__title">
               UI/UX <br />
               designer
@@ -144,7 +144,7 @@ const Services = () => {
 
         <div className="services__content">
           <div>
-            <i className="uil uil services__icon"></i>
+            <i class="bx bx-shield-alt-2 services__icon"></i>
             <h3 className="services__title">
               Ethical
               <br />
