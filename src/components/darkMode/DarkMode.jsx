@@ -1,7 +1,22 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 const DarkMode = () => {
-    const [isDarkMode, setIsDarkMode] = useState(false);
+    const [isDarkMode, setIsDarkMode] = useState(()=>{
+      const savedTheme = localStorage.getItem('theme');
+      return savedTheme === 'dark';
+    });
+
+    useEffect(()=>{
+      if(isDarkMode){
+        document.body.classList.add('dark-mode');
+        localStorage.setItem('theme','dark');
+      }
+      else{
+        document.body.classList.remove('dark-mode');
+        localStorage.setItem('theme','light');
+      }
+
+    },[isDarkMode]);
 
     const toggleTheme = () => {
         setIsDarkMode(!isDarkMode);
