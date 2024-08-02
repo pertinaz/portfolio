@@ -1,4 +1,10 @@
-
+:root {
+  .dark-mode {
+    .home__social-icon:hover {
+      color: var(--dark-hover-color);
+    }
+  }
+}
 
 .home__content {
   display: grid;
