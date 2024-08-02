@@ -40,7 +40,10 @@ const Header = () => {
             </li>
 
             <li className="nav__item">
-              <a href="#contact" className="nav__link active-link">
+              <a
+                href="https://cv-nine-flax.vercel.app/"
+                className="nav__link active-link"
+              >
                 <i className="uil uil-message nav__icon"></i>
                 Contact
               </a>
