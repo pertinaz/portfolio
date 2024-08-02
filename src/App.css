@@ -15,6 +15,24 @@
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
 
+  /* Dark mode var colors*/
+  --dark-hue: 0;
+  --dark-sat: 0%;
+  --dark-title-color: hsl(var(--dark-hue), var(--dark-sat), 90%);
+  --dark-text-color: hsl(var(--dark-hue), var(--dark-sat), 90%);
+  --dark-body-color: hsl(var(--dark-hue), var(--dark-sat), 10%);
+  --dark-container-color: #333;
+
+  .dark-mode{
+    --hue: var(--dark-hue);
+    --sat: var(--dark-sat);
+    --title-color: var(--dark-title-color);
+    --text-color: var(--dark-text-color);
+    --body-color: var(--dark-body-color);
+    --container-color: var(--dark-container-color);
+  }
+
+
   /* Font and Typography */
 
   --body-font: "Poppins", sans-serif;
