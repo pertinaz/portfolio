@@ -4,6 +4,9 @@ const Backend = () => {
   return (
     <div className="skills__content">
       <h3 className="skills__title">Backend Developer</h3>
+      <div className="project__img">
+        <h2>Aqui va la miniatura</h2>
+      </div>
 
       <div className="skills__box">
         <div className="skills__group">
@@ -11,15 +14,6 @@ const Backend = () => {
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Node JS</h3>
-              <span className="skills__level">Advanced</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">Python</h3>
-              <span className="skills__level">Intermediate</span>
             </div>
           </div>
 
@@ -27,7 +21,6 @@ const Backend = () => {
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">PostgresSQL</h3>
-              <span className="skills__level">Basic</span>
             </div>
           </div>
 
@@ -35,7 +28,6 @@ const Backend = () => {
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">NestJS</h3>
-              <span className="skills__level">Basic</span>
             </div>
           </div>
 
@@ -43,7 +35,6 @@ const Backend = () => {
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Express</h3>
-              <span className="skills__level">Advanced</span>
             </div>
           </div>
         </div>

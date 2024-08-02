@@ -6,12 +6,14 @@ import "./skills.css";
 const Skills = () => {
   return (
     <section className="skills section" id="skills">
-      <h2 className="section__title">Skills</h2>
-      <span className="section__subtitle">My technical level</span>
+      <h2 className="section__title">Portfolio</h2>
+      <span className="section__subtitle">I've been working on</span>
 
       <div className="skills__container container grid">
-            <Frontend />
-            <Backend />
+        <Frontend />
+        <Frontend />
+        <Backend />
+        <Backend />
       </div>
     </section>
   );

@@ -1,6 +1,5 @@
 .skills__container {
   display: flex;
-  grid-template-columns: repeat(2, 350px);
   column-gap: 3rem;
   justify-content: center;
 }
@@ -15,8 +14,12 @@
 .skills__content {
   background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 2rem 4rem;
+  padding: 1rem 2rem;
   border-radius: 1.25rem;
+}
+
+.project__img{
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .skills__title {
@@ -28,35 +31,30 @@
 }
 
 .skills__box {
-  display: flex;
-  justify-content: center;
+  display: grid;
   column-gap: 2.5rem;
 }
 
 .skills_group {
   display: grid;
-  align-items: flex-start;
-  row-gap: 1rem;
+  row-gap: 0.5rem;
 }
 
 .skills__data {
   display: flex;
+  flex-direction: row;
   column-gap: 0.5rem;
 }
 
 .skills .box-badge-check {
-  font-size: 1rem;
+  font-size: 0.5rem;
   color: var(--title-color);
 }
 
 .skills__name {
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
+  font-size: var(--smaller-font-size);
+  font-weight: var(--font-normal);
   line-height: 18px;
-}
-
-.skills__level {
-  font-size: var(--tiny-font-size);
 }
 
 /* ==BREAKPOINTS== */
