@@ -17,17 +17,12 @@ export const projects = [
   {
     title: "project 2",
     thumbnail: "url",
-    tools: ["react", "vercel", "css"],
+    tools: ["react", "nodejs", "css", "postgresql", "checked"],
   },
   {
     title: "project 3",
     thumbnail: "url",
-    tools: ["react", "vercel", "css"],
-  },
-  {
-    title: "project 4",
-    thumbnail: "url",
-    tools: ["react", "vercel", "css"],
+    tools: ["react", "nodejs", "css", "postgresql", "checked"],
   },
 ];
 
