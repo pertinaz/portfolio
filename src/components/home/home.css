@@ -4,7 +4,7 @@
       color: var(--dark-hover-color);
     }
 
-    .about__box{
+    .about__box {
       background-color: var(--dark-boxes-color);
     }
   }
@@ -147,11 +147,11 @@
   }
 
   .home__data {
-    grid-column: 1/3;
+    justify-content: center;
   }
 
   .about__info {
-    grid-template-columns: repeat(3, 200px);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
   }
 
@@ -184,7 +184,7 @@
   }
 
   .about__info {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 200px);
   }
 }
 

@@ -16,9 +16,10 @@
   justify-content: center;
 }
 
-.projects__sort{
+.projects__sort {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
 }
 
 .section__title,
@@ -37,7 +38,6 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1rem 2rem;
   border-radius: 1.25rem;
-  margin: var(--mb-0-5);
 }
 
 .project__img {
@@ -100,6 +100,11 @@
 
   .projects__content {
     padding: 1.5rem;
+  }
+
+  .projects__sort {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
 
