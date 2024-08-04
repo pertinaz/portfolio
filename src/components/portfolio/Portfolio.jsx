@@ -1,7 +1,7 @@
 import React from "react";
-import Backend from "./Backend";
 import Frontend from "./Frontend";
 import "./portfolio.css";
+import { ProjectCard, projects } from "./Backend";
 
 const Portfolio = () => {
   return (
@@ -10,10 +10,15 @@ const Portfolio = () => {
       <span className="section__subtitle">I've been working on</span>
 
       <div className="portfolio__container container grid">
-        <Frontend />
-        <Frontend />
-        <Backend />
-        <Backend />
+        <div className="projects__sort">
+          {projects.map((project, index) => (
+            <ProjectCard 
+            key={index} 
+            title={project.title} 
+            thumbnail={project.thumbnail}
+            tools={project.tools} />
+          ))}
+        </div>
       </div>
     </section>
   );

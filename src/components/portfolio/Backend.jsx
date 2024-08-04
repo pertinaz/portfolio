@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const projects = [
+export const projects = [
   {
     title: "project 1",
     thumbnail: "url",
@@ -24,13 +24,41 @@ const projects = [
   },
 ];
 
-const ProjectCard = ({title,thumbnail,tools}) =>{
+export const ProjectCard = ({title,thumbnail,tools}) =>{
   return (
     <div className="projects__content">
       <h3 className="project__title">{title}</h3>
       <img src={thumbnail} alt={`${title} thumbnail`} className="project__img" />
+      
       <div className="project__box">
-        
+        <div className="project__group">
+          <div className="project__data">
+            {tools.map((tool,index)=>(
+              <span key={index} className={`tool__icon ${tool}`}></span>
+            ))}
+          </div>
+
+          <div className="project__data">
+            <i class="bx bxl-postgresql"></i>
+            <div>
+              <h3 className="tool__name">PostgresSQL</h3>
+            </div>
+          </div>
+
+          <div className="project__data">
+            <i class="bx bx-badge-check"></i>
+            <div>
+              <h3 className="tool__name">NestJS</h3>
+            </div>
+          </div>
+
+          <div className="project__data">
+            <i class="bx bx-badge-check"></i>
+            <div>
+              <h3 className="tool__name">Express</h3>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
