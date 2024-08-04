@@ -111,6 +111,7 @@
 @media screen and (max-width: 350px) {
   .projects__content {
     padding: 1rem;
+    margin-bottom: var(--mb-1);
   }
 
   .project__box {
