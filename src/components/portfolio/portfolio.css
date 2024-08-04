@@ -11,15 +11,13 @@
 }
 
 .portfolio__container {
-  display: flex;
-  column-gap: 3rem;
   justify-content: center;
 }
 
 .projects__sort {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  column-gap: 1.5rem;
 }
 
 .section__title,
@@ -34,6 +32,7 @@
 }
 
 .projects__content {
+  position: relative;
   background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1rem 2rem;

@@ -11,9 +11,12 @@
 }
 
 .services__container {
-  display: grid;
-  grid-template-columns: repeat(3, 270px);
   justify-content: center;
+}
+
+.services__sort {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   column-gap: 1.5rem;
 }
 
@@ -23,7 +26,6 @@
   background-color: var(--container-color);
   padding: 4rem 0 2rem 2.5rem;
   border-radius: 1.25rem;
-  margin-top: 0.5rem;
 }
 
 .services__icon {
