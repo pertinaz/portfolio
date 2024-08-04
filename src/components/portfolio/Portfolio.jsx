@@ -1,7 +1,6 @@
 import React from "react";
-import Frontend from "./Frontend";
 import "./portfolio.css";
-import { ProjectCard, projects } from "./Backend";
+import { ProjectCard, projects } from "./ProjectCard";
 
 const Portfolio = () => {
   return (

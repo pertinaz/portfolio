@@ -1,6 +1,13 @@
 import React from "react";
 
 
+const toolIcons = {
+  react: "bx bxl-react",
+  nodejs: "bx bxl-nodejs",
+  css: "bx bxl-css3",
+  postgresql: "bx bxl-postgresql",
+};
+
 export const projects = [
   {
     title: "project 1",
@@ -34,8 +41,8 @@ export const ProjectCard = ({title,thumbnail,tools}) =>{
         <div className="project__group">
           <div className="project__data">
             {tools.map((tool,index)=>(
-              <span key={index} className={`tool__icon ${tool}`}></span>
-            ))}
+              <i className={toolIcons[tool]}></i>
+              ))}
           </div>
 
           <div className="project__data">
