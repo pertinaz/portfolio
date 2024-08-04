@@ -1,11 +1,49 @@
 import React from "react";
 
+
+const projects = [
+  {
+    title: "project 1",
+    thumbnail: "url",
+    tools: ["react", "vercel", "css"],
+  },
+  {
+    title: "project 2",
+    thumbnail: "url",
+    tools: ["react", "vercel", "css"],
+  },
+  {
+    title: "project 3",
+    thumbnail: "url",
+    tools: ["react", "vercel", "css"],
+  },
+  {
+    title: "project 4",
+    thumbnail: "url",
+    tools: ["react", "vercel", "css"],
+  },
+];
+
+const ProjectCard = ({title,thumbnail,tools}) =>{
+  return (
+    <div className="projects__content">
+      <h3 className="project__title">{title}</h3>
+      <img src={thumbnail} alt={`${title} thumbnail`} className="project__img" />
+      <div className="project__box">
+        
+      </div>
+    </div>
+  );
+}
+
+/*
+
 const Backend = () => {
   return (
     <div className="projects__content">
-      <h3 className="project__title">Backend Developer</h3>
+      <h3 className="project__title">Project title</h3>
       <div className="project__img">
-        <h2>Aqui va la miniatura</h2>
+        
       </div>
 
       <div className="project__box">
@@ -44,3 +82,4 @@ const Backend = () => {
 };
 
 export default Backend;
+*/
