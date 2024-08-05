@@ -10,18 +10,18 @@ const toolIcons = {
 
 export const projects = [
   {
-    title: "project 1",
-    thumbnail: "url",
+    title: "Movies review page",
+    thumbnail: "/imdb_project.png",
     tools: ["react", "nodejs", "css", "postgresql", "checked"],
   },
   {
-    title: "project 2",
-    thumbnail: "url",
+    title: "Weather based on location API",
+    thumbnail: "/wheater_project.png",
     tools: ["react", "nodejs", "css", "postgresql", "checked"],
   },
   {
-    title: "project 3",
-    thumbnail: "url",
+    title: "News API",
+    thumbnail: "/news_project.png",
     tools: ["react", "nodejs", "css", "postgresql", "checked"],
   },
 ];
@@ -51,51 +51,3 @@ export const ProjectCard = ({ title, thumbnail, tools }) => {
     </div>
   );
 };
-
-/*
-
-const Backend = () => {
-  return (
-    <div className="projects__content">
-      <h3 className="project__title">Project title</h3>
-      <div className="project__img">
-        
-      </div>
-
-      <div className="project__box">
-        <div className="project__group">
-          <div className="project__data">
-            <i class="bx bxl-nodejs"></i>
-            <div>
-              <h3 className="tool__name">Node JS</h3>
-            </div>
-          </div>
-
-          <div className="project__data">
-            <i class="bx bxl-postgresql"></i>
-            <div>
-              <h3 className="tool__name">PostgresSQL</h3>
-            </div>
-          </div>
-
-          <div className="project__data">
-            <i class="bx bx-badge-check"></i>
-            <div>
-              <h3 className="tool__name">NestJS</h3>
-            </div>
-          </div>
-
-          <div className="project__data">
-            <i class="bx bx-badge-check"></i>
-            <div>
-              <h3 className="tool__name">Express</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default Backend;
-*/

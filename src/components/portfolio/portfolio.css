@@ -3,10 +3,6 @@
     .projects__content {
       background-color: var(--dark-boxes-color);
     }
-
-    .project__img {
-      background-color: var(--dark-container-color);
-    }
   }
 }
 
@@ -43,7 +39,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--body-color);
   border-radius: 10px;
-  padding: 3rem 1.5rem;
+  padding: 2rem .5rem;
   margin-bottom: var(--mb-1);
 }
 
@@ -105,7 +101,7 @@
 
   .projects__sort {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -128,7 +124,7 @@
     grid-template-columns: 1fr;
   }
 
-  .project__img{
+  .project__img {
     padding: 4rem 10rem;
   }
 }
