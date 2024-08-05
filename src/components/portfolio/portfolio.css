@@ -92,6 +92,23 @@
 }
 
 /* for medium devices */
+
+@media screen and (max-width: 650px) {
+  .portfolio__container {
+    grid-template-columns: 1fr;
+  }
+
+  .projects__content {
+    padding: 1.5rem;
+    margin-bottom: var(--mb-1);
+  }
+
+  .projects__sort {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
 @media screen and (max-width: 576px) {
   .portfolio__container {
     grid-template-columns: 1fr;
@@ -101,9 +118,75 @@
     padding: 1.5rem;
   }
 
+  .project__group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .projects__sort {
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .project__img{
+    padding: 4rem 10rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .projects__content {
+    padding: 1rem;
+    margin-bottom: var(--mb-1);
+  }
+
+  .project__img {
+    padding: 3rem 6rem;
+  }
+
+  .project__box {
+    columns: gap 1.25rem;
+  }
+
+  .project__group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .tool__name {
+    font-size: var(--smaller-font-size);
+  }
+
+  .project__title {
+    font-size: var(--small-font-size);
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 450px) {
+  .projects__content {
+    padding: 1rem;
+    margin-bottom: var(--mb-1);
+  }
+
+  .project__img {
+    padding: 3rem 6rem;
+  }
+
+  .project__box {
+    columns: gap 1.25rem;
+  }
+
+  .project__group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .tool__name {
+    font-size: var(--smaller-font-size);
+  }
+
+  .project__title {
+    font-size: var(--small-font-size);
   }
 }
 
@@ -114,8 +197,17 @@
     margin-bottom: var(--mb-1);
   }
 
+  .project__img {
+    padding: 4rem 5rem;
+  }
+
   .project__box {
-    columns: gap 1.25rem;
+    column-gap: 1.25rem;
+  }
+
+  .project__group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .tool__name {
@@ -123,6 +215,6 @@
   }
 
   .project__title {
-    font-size: var(--small-font-size);
+    font-size: var(--smaller-font-size);
   }
 }

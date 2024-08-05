@@ -188,7 +188,7 @@
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .home__content {
     display: grid;
     grid-template-columns: 1fr;
