@@ -13,29 +13,35 @@ export const projects = [
     title: "Movies review page",
     thumbnail: "/imdb_project.png",
     tools: ["react", "nodejs", "css", "postgresql", "checked"],
+    redirect:
+      "https://6682901162f6531509073a02--cute-medovik-bab83a.netlify.app/",
   },
   {
     title: "Weather based on location API",
     thumbnail: "/wheater_project.png",
     tools: ["react", "nodejs", "css", "postgresql", "checked"],
+    redirect:
+      "https://6682901162f6531509073a02--cute-medovik-bab83a.netlify.app/",
   },
   {
     title: "News API",
     thumbnail: "/news_project.png",
     tools: ["react", "nodejs", "css", "postgresql", "checked"],
+    redirect: "https://bootcamp-news.netlify.app/",
   },
 ];
 
-export const ProjectCard = ({ title, thumbnail, tools }) => {
+export const ProjectCard = ({ title, thumbnail, tools, redirect }) => {
   return (
     <div className="projects__content">
       <h3 className="project__title">{title}</h3>
-      <img
-        src={thumbnail}
-        alt={`${title} thumbnail`}
-        className="project__img"
-      />
-
+      <a href={redirect}>
+        <img
+          src={thumbnail}
+          alt={`${title} thumbnail`}
+          className="project__img"
+        />
+      </a>
       <div className="project__box">
         <div className="project__group">
           {tools.map((tool, index) => (

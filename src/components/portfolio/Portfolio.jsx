@@ -15,7 +15,8 @@ const Portfolio = () => {
             key={index} 
             title={project.title} 
             thumbnail={project.thumbnail}
-            tools={project.tools} />
+            tools={project.tools}
+            redirect={project.redirect} />
           ))}
         </div>
       </div>
