@@ -6,13 +6,14 @@ const toolIcons = {
   css: "bx bxl-css3",
   postgresql: "bx bxl-postgresql",
   checked: "bx bx-badge-check",
+  tailwind: "bx bxl-tailwind-css"
 };
 
 export const projects = [
   {
     title: "Movies review page",
     thumbnail: "/imdb_project.png",
-    tools: ["react", "nodejs", "css", "postgresql", "checked"],
+    tools: ["react", "nodejs", "css"],
     redirect:
       "https://6682901162f6531509073a02--cute-medovik-bab83a.netlify.app/",
   },
@@ -26,7 +27,7 @@ export const projects = [
   {
     title: "News API",
     thumbnail: "/news_project.png",
-    tools: ["react", "nodejs", "css", "postgresql", "checked"],
+    tools: ["react", "nodejs", "tailwind", "checked"],
     redirect: "https://bootcamp-news.netlify.app/",
   },
 ];
